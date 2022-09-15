@@ -1,0 +1,64 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.page{
+    padding: 10em;
+    background-color: hsl(30, 38%, 92%);
+    align-items: center;
+}
+.container{
+    border-radius: 15px;
+    display: flex;
+    width: 60%;
+    height: max-content ;
+    padding: 0;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.productImage{
+    size: inherit;
+    overflow: hidden;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0;
+}
+
+.productDescription{
+    margin-left: 1.9rem;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-family: "Montserrat";
+    color:hsl(228, 12%, 48%);
+}
+
+h1{
+    font-family: "Fraunces";
+    font-weight: 900;
+    color: black;
+}
+
+#realPrice{
+    font-size: 2rem;
+    color: green;
+    font-weight: 900;
+    font-family: "Fraunces";
+}
+
+#buyButton{
+    background-color: green;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 3rem;
+    font-family: "Montserrat";
+    font-weight: 900;
+    border: 0;
+    border-radius: 10px;
+}
